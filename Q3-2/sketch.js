@@ -42,7 +42,7 @@ function draw() {
   vy += g;
 
   if (keyIsDown(UP_ARROW) && y == groundY) {
-    vy = -40;
+    vy = -30;
   }
   // 速くなりすぎないように制限
   vx = constrain(vx, -20, 20);
